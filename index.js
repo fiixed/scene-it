@@ -14,5 +14,8 @@ document.addEventListener('DOMContentLoaded',()=> {
         
         
     };
-    document.querySelector(".movies-container").innerHTML = renderMovies(movieData);
+    document.getElementById('search-form').addEventListener('submit', (event) => {
+        event.preventDefault();
+        document.querySelector(".movies-container").innerHTML = renderMovies(movieData);
+    });
 });
