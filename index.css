@@ -23,11 +23,25 @@ body {
 .movie {
   position: relative;
   margin-bottom: 2%;
+  height: 590px;
 }
 
 .add {
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 10px;
+  bottom: 10px;
   width: fit-content;
+}
+
+.release-date {
+  background-color: gray;
+  color: #fff;
+  padding: 1%;
+}
+
+#heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
 }
